@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="BSAI实验室：行为与空间人工智能实验室">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BSAI 实验室</title> 
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="icon" href="./static/tjb_images/logo_4.png">
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+    <style>
+        .navbar {
+            background-color: #061E61;
+        }
+        .navbar-menu {
+            justify-content: center;
+        }
+        .hero {
+            background: url('./static/tjb_images/lab_hero.jpg') center center/cover;
+            height: 400px;
+        }
+        .hero-body {
+            color: white;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .team-photo {
+            width: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .team-member {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">BSAI 实验室</a>
+        </div>
+        <div class="navbar-menu">
+            <a class="navbar-item" href="#people">团队成员</a>
+            <a class="navbar-item" href="#news">新闻</a>
+            <a class="navbar-item" href="#papers">论文</a>
+            <a class="navbar-item" href="#projects">项目</a>
+        </div>
+        <div class="navbar-end">
+            <button id="lang-toggle" class="button">切换至英文</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title" id="hero-title">行为与空间人工智能实验室</h1>
+                <h2 class="subtitle" id="hero-subtitle">在行为与空间AI领域的前沿研究</h2>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- News Section -->
+    <section class="section" id="news">
+        <div class="container">
+            <h2 class="title section-title" id="news-title">新闻</h2>
+            <div class="content">
+                <article id="news-item1">
+                    <h4>2024年10月</h4>
+                    <p>BSAI 实验室在XYZ会议上荣获最佳论文奖！</p>
+                </article>
+                <article id="news-item2">
+                    <h4>2024年9月</h4>
+                    <p>与ABC研究所合作启动了新的城市交通项目。</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <iframe src="people.html"></iframe>
+
+
+<section class="section" id="people">
+    <div class="container">
+        <h2 class="title section-title" id="people-title">团队成员</h2>
+        <div class="columns is-multiline">
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/wenjia_zhang.jpg" alt="Wenjia Zhang" class="team-photo">
+                <p><strong id="person1-name">Wenjia Zhang</strong></p>
+                <p id="person1-role">实验室主任</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/junyou_su.jpg" alt="Su Junyou" class="team-photo">
+                <p><strong id="person3-name">Su Junyou</strong></p>
+                <p id="person3-role">M0</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/wen_wang.jpg" alt="Wang Wen" class="team-photo">
+                <p><strong id="person4-name">Wang Wen</strong></p>
+                <p id="person4-role">M0</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/he_zhu.jpg" alt="He Zhu" class="team-photo">
+                <p><strong id="person5-name">He Zhu</strong></p>
+                <p id="person5-role">M1</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/minxin_chen.jpg" alt="Chen Minxin" class="team-photo">
+                <p><strong id="person6-name">Chen Minxin</strong></p>
+                <p id="person6-role">M1</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yijie_deng.jpg" alt="Deng Yijie" class="team-photo">
+                <p><strong id="person7-name">Deng Yijie</strong></p>
+                <p id="person7-role">M1</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/jiayu_gu.jpg" alt="Gu Jiayu" class="team-photo">
+                <p><strong id="person8-name">Gu Jiayu</strong></p>
+                <p id="person8-role">M2</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yao_lu.jpg" alt="Lu Yao" class="team-photo">
+                <p><strong id="person9-name">Lu Yao</strong></p>
+                <p id="person9-role">M2</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/luyao_niu.jpg" alt="Niu Luyao" class="team-photo">
+                <p><strong id="person10-name">Niu Luyao</strong></p>
+                <p id="person10-role">M2</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yuhan_zou.jpg" alt="Zou Yuhan" class="team-photo">
+                <p><strong id="person11-name">Zou Yuhan</strong></p>
+                <p id="person11-role">M2</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yinger_cai.jpg" alt="Cai Ying'er" class="team-photo">
+                <p><strong id="person12-name">Cai Ying'er</strong></p>
+                <p id="person12-role">M3</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/nuoxian_huang.jpg" alt="Huang Nuoxian" class="team-photo">
+                <p><strong id="person13-name">Huang Nuoxian</strong></p>
+                <p id="person13-role">M3</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/boyang_li.jpg" alt="Li Boyang" class="team-photo">
+                <p><strong id="person14-name">Li Boyang</strong></p>
+                <p id="person14-role">M3</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yue_wei.jpg" alt="Wei Yue" class="team-photo">
+                <p><strong id="person15-name">Wei Yue</strong></p>
+                <p id="person15-role">M3</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/sizheng_yang.jpg" alt="Yang Sizheng" class="team-photo">
+                <p><strong id="person16-name">Yang Sizheng</strong></p>
+                <p id="person16-role">M3</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yurun_wang.jpg" alt="Wang Yurun" class="team-photo">
+                <p><strong id="person17-name">Wang Yurun</strong></p>
+                <p id="person17-role">PhD</p>
+            </div>
+            <div class="column is-one-quarter team-member">
+                <img src="./static/tjb_images/yulin_wu.jpg" alt="Wu Yulin" class="team-photo">
+                <p><strong id="person18-name">Wu Yulin</strong></p>
+                <p id="person18-role">PhD</p>
+            </div>
+        
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Papers Section -->
+    <section class="section" id="papers">
+        <div class="container">
+            <h2 class="title section-title" id="papers-title">论文</h2>
+            <div class="content">
+                <ul>
+                    <li><strong id="paper1-title">PlanGPT: 增强城市规划的定制语言模型与高效检索</strong>, <em>He Zhu 等,</em> 2024年. <a href="https://arxiv.org/abs/2402.19273">[PDF]</a></li>
+                    <li><strong id="paper2-title">城市环境中的空间AI</strong>, <em>Wenjia Zhang 等,</em> 2023年. <a href="#">[PDF]</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="title section-title" id="projects-title">项目</h2>
+            <div class="content">
+                <ul>
+                    <li><strong id="project1-title">城市交通优化</strong> - 正在进行：开发基于AI的模型来优化城市交通系统。</li>
+                    <li><strong id="project2-title">公共空间中的行为AI</strong> - 已完成：研究AI系统在改善公共区域行为方面的应用。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p id="footer-text">BSAI 实验室 - 行为与空间人工智能实验室，北京大学。</p>
+        </div>
+    </footer>
+
+    <script>
+        // Language toggle logic
+        const translations = {
+            en: {
+                "hero-title": "Behavioral and Spatial AI Lab",
+                "hero-subtitle": "Pioneering Research in Behavioral & Spatial AI",
+                "people-title": "People",
+                "person1-name": "Wenjia Zhang",
+                "person1-role": "Lab Director",
+                "person3-name": "Su Junyou",
+                "person3-role": "M0",
+                "person4-name": "Wang Wen",
+                "person4-role": "M0",
+                "person5-name": "He Zhu",
+                "person5-role": "M1",
+                "person6-name": "Chen Minxin",
+                "person6-role": "M1",
+                "person7-name": "Deng Yijie",
+                "person7-role": "M1",
+                "person8-name": "Gu Jiayu",
+                "person8-role": "M2",
+                "person9-name": "Lu Yao",
+                "person9-role": "M2",
+                "person10-name": "Niu Luyao",
+                "person10-role": "M2",
+                "person11-name": "Zou Yuhan",
+                "person11-role": "M2",
+                "person12-name": "Cai Ying'er",
+                "person12-role": "M3",
+                "person13-name": "Huang Nuoxian",
+                "person13-role": "M3",
+                "person14-name": "Li Boyang",
+                "person14-role": "M3",
+                "person15-name": "Wei Yue",
+                "person15-role": "M3",
+                "person16-name": "Yang Sizheng",
+                "person16-role": "M3",
+                "person17-name": "Wang Yurun",
+                "person17-role": "PhD",
+                "person18-name": "Wu Yulin",
+                "person18-role": "PhD",
+                "news-title": "News",
+                "news-item1": "BSAI Lab wins the Best Paper Award at XYZ Conference!",
+                "news-item2": "New project on urban mobility launched in collaboration with ABC Institute.",
+                "papers-title": "Papers",
+                "paper1-title": "PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval",
+                "paper2-title": "Spatial AI for Urban Environments",
+                "projects-title": "Projects",
+                "project1-title": "Urban Mobility Optimization",
+                "project2-title": "Behavioral AI in Public Spaces",
+                "footer-text": "BSAI Lab - Behavioral and Spatial AI Lab, Peking University.",
+                "button-text": "切换至中文"
+            },
+
+
+
+
+            zh: {
+                "hero-title": "行为与空间人工智能实验室",
+                "hero-subtitle": "在行为与空间AI领域的前沿研究",
+                "people-title": "团队成员",
+                "person1-name": "张文佳",
+                "person1-role": "实验室主任",
+                "person3-name": "苏军又",
+                "person3-role": "M0",
+                "person4-name": "王稳",
+                "person4-role": "M0",
+                "person5-name": "朱赫",
+                "person5-role": "M1",
+                "person6-name": "陈旻歆",
+                "person6-role": "M1",
+                "person7-name": "邓奕杰",
+                "person7-role": "M1",
+                "person8-name": "顾嘉钰",
+                "person8-role": "M2",
+                "person9-name": "陆遥",
+                "person9-role": "M2",
+                "person10-name": "牛璐瑶",
+                "person10-role": "M2",
+                "person11-name": "邹宇晗",
+                "person11-role": "M2",
+                "person12-name": "蔡迎儿",
+                "person12-role": "M3",
+                "person13-name": "黄诺贤",
+                "person13-role": "M3",
+                "person14-name": "李博洋",
+                "person14-role": "M3",
+                "person15-name": "魏玥",
+                "person15-role": "M3",
+                "person16-name": "杨思正",
+                "person16-role": "M3",
+                "person17-name": "王雨润",
+                "person17-role": "博士",
+                "person18-name": "武钰林",
+                "person18-role": "博士",
+                "news-title": "新闻",
+                "news-item1": "BSAI 实验室在XYZ会议上荣获最佳论文奖！",
+                "news-item2": "与ABC研究所合作启动了新的城市交通项目。",
+                "papers-title": "论文",
+                "paper1-title": "PlanGPT: 增强城市规划的定制语言模型与高效检索",
+                "paper2-title": "城市环境中的空间AI",
+                "projects-title": "项目",
+                "project1-title": "城市交通优化",
+                "project2-title": "公共空间中的行为AI",
+                "footer-text": "BSAI 实验室 - 行为与空间人工智能实验室，北京大学。",
+                "button-text": "Switch to English"
+            }
+        };
+
+        let currentLang = "zh";
+
+        document.getElementById("lang-toggle").addEventListener("click", () => {
+            currentLang = currentLang === "zh" ? "en" : "zh";
+
+            for (let key in translations[currentLang]) {
+                document.getElementById(key).innerText = translations[currentLang][key];
+            }
+
+            document.getElementById("lang-toggle").innerText = translations[currentLang]["button-text"];
+        });
+    </script>
+</body>
+</html>
+
+                
+
+
+
+
+
+
+              
+                
